@@ -1,0 +1,56 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  form(action='/login', method='post')
+     input(type='submit', value='login')
+
+  form(action='/logout', method='post')
+     input(type='submit', value='logout')
+
+  form(action='/addreq', method='post')
+     input(type='submit', value='addreq')
+
+  form(action='/add', method='post')
+     input(type='submit', value='add')
+
+  form(action='/adderr', method='get')
+     input(type='submit', value='adderr')
+
+  form(action='/addend', method='get')
+     input(type='submit', value='addend')
+
+  form(action='/refreq', method='get')
+     input(type='submit', value='refreq')
+
+  form(action='/ref', method='get')
+     input(type='submit', value='ref')
+ 
+  form(action='/referr1', method='get')
+     input(type='submit', value='referr1')
+  
+  form(action='/referr2', method='get')
+     input(type='submit', value='referr2')
+
+  form(action='/refend', method='get')
+     input(type='submit', value='refend')
+
+  form(action='/delreq', method='post')
+     input(type='submit', value='delreq')
+
+  form(action='/del', method='post')
+     input(type='submit', value='del')
+
+  form(action='/delerr1', method='get')
+     input(type='submit', value='delerr1')
+     
+  form(action='/delerr2', method='get')
+     input(type='submit', value='delerr2')
+
+  form(action='/delerr3', method='get')
+     input(type='submit', value='delerr3')
+
+  form(action='/delend', method='get')
+     input(type='submit', value='delend')
